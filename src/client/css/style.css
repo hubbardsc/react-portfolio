@@ -1,0 +1,107 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    font-family: arial,helvetica,sans-serif;
+    color: rgb(210, 210, 210);
+}
+
+.container {
+     max-width: 1400px;
+}
+
+.header {
+    height: 100px;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+.name {
+    padding-top: 35px;
+}
+
+.name h5 {
+    color: white;
+}
+
+.whitebox {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    opacity: .7;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+    max-width: 250px;
+}
+
+.whitebox img {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.whitebox:hover {
+    opacity: 1;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.subtitle {
+    color: rgb(210, 210, 210);
+}
+
+.title:hover {
+    color: rgb(210, 210, 210);
+}
+
+.title {
+    color: #808080;
+}
+
+.menu > a {
+    text-decoration: none;
+}
+
+.projects {
+    margin-bottom: 50px;
+}
+
+.spacer {
+    margin-top: 20px;
+}
+
+.comingSoonText {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    z-index: -2;
+    bottom: 80px;
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.comingSoon:hover {
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.parent:hover > .comingSoonText {
+    opacity: 1;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
