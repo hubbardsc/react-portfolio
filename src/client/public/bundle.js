@@ -450,8 +450,8 @@
 							{ className: 'whitebox' },
 							React.createElement(
 								'a',
-								{ href: 'http://frrdev.parseapp.com/vbqRZb5OYh', target: '_blank' },
-								React.createElement('img', { src: 'images/frr_logo.png', alt: 'frr logo' })
+								{ href: 'http://maxxpotential.com', target: '_blank' },
+								React.createElement('img', { src: 'images/maxx_logo.png', alt: 'maxx logo' })
 							)
 						)
 					),

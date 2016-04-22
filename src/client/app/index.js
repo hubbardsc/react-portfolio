@@ -156,8 +156,8 @@ var Portfolio = React.createClass({
 				</div>
 				<div className="col-md-4 col-sm-6">
 					<div className="whitebox">
-						<a href="http://frrdev.parseapp.com/vbqRZb5OYh" target="_blank">
-							<img src="images/frr_logo.png" alt="frr logo" />
+						<a href="http://maxxpotential.com" target="_blank">
+							<img src="images/maxx_logo.png" alt="maxx logo" />
 						</a>
 					</div>
 				</div>
